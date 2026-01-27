@@ -1,3 +1,7 @@
+/*
+Name:Shawn Mbithi
+Description: Program to compute bankbalance
+*/
 #include<stdio.h> 
 int main() {
 	//
@@ -6,7 +10,7 @@ int main() {
 	char phoneNumber[20];//Using string to accomodate leading zeros or long numbers
 	printf("Enter Your Height(in meters or centimeters)");
 	scanf("%f", &height);
-	printf("Enter your bank balance(in kenya shillings)");
+	printf("Enter your bankbalance(in kenya shillings)");
 	scanf("%lf",&bankbalance);
 	printf("Enter your phoneNumber:");
 	scanf("%s",phoneNumber);//%s handles string input
@@ -17,4 +21,5 @@ int main() {
 	
 	return 0;
 } 
+
 	 
