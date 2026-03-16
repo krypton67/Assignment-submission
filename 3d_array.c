@@ -3,6 +3,7 @@
 #include <time.h>
 
 int main() {
+    //the first dimension has 3branches,5 floors and 10 rooms
     int chain[3][5][10];
     int i, j, k;
     int totalOccupied = 0;
